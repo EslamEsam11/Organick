@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organick - Webflow Ecommerce website template</title>
+    <link rel="icon" href="imgs/Logo.png" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/food.css">
+    <link rel="logo" href="imgs/Logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <button id="btn" class="arrowUp"><i class="fa-solid fa-arrow-up"></i></button>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="imgs/Logo.png" alt="">
+                </a>
+                <h2>
+                    Organick
+                </h2>
+                <ul class="main-nav">
+                    <li><a href="/indix.html" class="active">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <div class="dropdown">
+                       
+                        <li>Pages<i class="fa-solid fa-chevron-up fa-rotate-180"></i>
+                                <ul class="navparUp hid" >
+                            
+                                    <li><a href="">Services</a></li>
+                                    <li><a href="">Services Single</a></li>
+                                    <li><a href="">Portfolio</a></li>
+                                    <li><a href="">Our Team</a></li>
+                                    <li><a href="">Recent News</a></li>
+                             
+                                </ul>
+                        </li>
+                      
+                    </div>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#news">News</a></li>
+                </ul>
+            </div>
+            <div class="Search_Card">
+                <div class="Search">
+                    <div class="search">
+                        <input type="text" class="search__input" placeholder="Type your text">
+                        <button class="search__button">
+                            <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                                <g>
+                                    <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <button>
+                        <a href="">
+                            <i class="fa-solid fa-cart-shopping"> </i>
+                        </a>
+                        <a href="" class="text">
+                            cart <span>(0)</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+          <div class="button">
+            <button  id="open"><i class="fa-solid fa-bars"></i></button>
+            <button id="close" class="hid"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+            <div class="navbar-responsive hid">
+                <li><a href="/indix.html" class="active">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <div class="dropdown">
+                    <li id="pages">Pages<i class="fa-solid fa-chevron-up fa-rotate-180"></i>
+                      <div class="n hid">
+                        <ul class="navpar-pages " >
+                           
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Services Single</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Recent News</a></li>
+                     
+                        </ul>
+                      </div>
+                    </li>
+                </div>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#news">News</a></li>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="choose">
+            <div class="container">
+                <p>
+                    100% Natural Food
+                </p>
+                <h1>
+                    Choose the best
+                    healthier way
+                    of life
+                    </h2>
+                    <h2>
+                        <a href="">
+                            Explore Now <i class="fa-solid fa-circle-down fa-rotate-270"></i>
+                        </a>
+                    </h2>
+            </div>
+        </div>
+    </section>
+    <!-- Fruits part -->
+    <section>
+        <div class="container">
+            <div class="fruits_part">
+                <div class="boxOne">
+                    <img src="imgs/Image get.png" alt="">
+                    <div class="text_boxOne">
+                        <p>
+                            Natural!!
+                        </p>
+                        <h2>
+                            Get Garden Fresh Fruits
+                        </h2>
+                    </div>
+                </div>
+                <div class="boxTwo">
+                    <img src="imgs/Photo.jpg" alt="">
+                    <div class="text_boxTwo">
+                        <p>
+                            Offer!!
+                        </p>
+                        <h2>
+                            Get 10% off
+                            on Vegetables
+                        </h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+    <div class="container">
+        <div class="AboutUs">
+            <div class="AboutUs_Img">
+                <img src="imgs/PhotoAbout.png" alt="">
+            </div>
+            <div class="text_AboutUs">
+                <div class="text_One">
+                    <h2>
+                        About Us
+                    </h2>
+                    <h1>
+                        We Believe in Working
+                        Accredited Farmers
+                    </h1>
+                    <p>
+                        Simply dummy text of the printing and typesetting industry. Lorem had ceased to
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley.
+                    </p>
+                </div>
+                <div class="box_AboutUs_One">
+                    <img src="imgs/Icon 1.png" alt="">
+                    <div class="text_AboutUs_One">
+                        <h2>
+                            Organic Foods Only
+                        </h2>
+                        <p>
+                            Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="box_AboutUs_One">
+                    <img src="imgs/Icon2.png" alt="">
+                    <div class="text_AboutUs_One">
+                        <h2>
+                            Quality Standards
+                        </h2>
+                        <p>
+                            Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="button">
+                    <h2>
+                        <a href="">
+                            Shop Now <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                        </a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories  -->
+    <div class="categories">
+        <div class="container">
+            <div class="Title_categories">
+                <p>
+                    Categories
+                </p>
+                <h2>
+                    Our Products
+                </h2>
+            </div>
+            <div class="box_categories">
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_One">
+                    <div class="block">
+                        <div class="img_block">
+                            <h2 class="Product_title">
+                                Vegetable
+                            </h2>
+                            <img src="imgs/Photo catearies 1.png" alt="">
+                        </div>
+                        <div class="text_box_One">
+                            <h2>
+                                <a href="">
+                                    Calabrese Broccoli
+                                </a>
+                            </h2>
+                            <hr>
+                            <div class="rating_and_price">
+                                <p>
+                                    <span> $ 9.37 USD</span>
+                                    $ 14.00 USD
+                                </p>
+                                <img class="star" src="imgs/Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <h2>
+                    <a href="">
+                        Load More <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                    </a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial -->
+    <div class="Testimonial">
+        <div class="Img_Testimonial">
+            <img src="imgs/Photo1.png" alt="">
+            <img src="imgs/Photo2.png" alt="">
+        </div>
+        <div class="container">
+            <div class="block_Testimonial">
+                <div class="Title_Testimonial">
+                    <p>
+                        Testimonial
+                    </p>
+                    <h2>
+                        What Our Customer Saying?
+                    </h2>
+                </div>
+                <div class="UsersOpinion">
+                    <div class="Img_User">
+                        <img src="imgs/Image 22.png" alt="">
+                    </div>
+                    <div class="Star_UsersOpinion">
+                        <img src="imgs/Star.png" alt="">
+                    </div>
+                    <p>
+                        Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been.
+                    </p>
+                    <h1>
+                        Sara Taylor
+                    </h1>
+                    <h2>
+                        Consumer
+                    </h2>
+                </div>
+            </div>
+            <div class="ratio">
+                <div class="box_ratio">
+                    <p>
+                        100%
+                    </p>
+                    <h2>
+                        Organic
+                    </h2>
+                </div>
+                <div class="box_ratio">
+                    <p>
+                        100%
+                    </p>
+                    <h2>
+                        Organic
+                    </h2>
+                </div>
+                <div class="box_ratio">
+                    <p>
+                        100%
+                    </p>
+                    <h2>
+                        Organic
+                    </h2>
+                </div>
+                <div class="box_ratio">
+                    <p>
+                        100%
+                    </p>
+                    <h2>
+                        Organic
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer -->
+    <div class="Offer">
+        <div class="container">
+            <div class="everyone_Offer">
+                <div class="text_Offer">
+                    <div class="Title_Offer">
+                        <p>
+                            Offer
+                        </p>
+                        <h2>
+                            We Offer Organic For You
+                        </h2>
+                    </div>
+                    <div class="button">
+                        <h2>
+                            <a href="">
+                                Load More <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="block_Offer">
+                    <div class="box_One">
+                        <div class="block">
+                            <div class="img_block">
+                                <h2 class="Product_title">
+                                    Vegetable
+                                </h2>
+                                <img src="imgs/Photo catearies 1.png" alt="">
+                            </div>
+                            <div class="text_box_One">
+                                <h2>
+                                    <a href="">
+                                        Calabrese Broccoli
+                                    </a>
+                                </h2>
+                                <hr>
+                                <div class="rating_and_price">
+                                    <p>
+                                        <span> $ 9.37 USD</span>
+                                        $ 14.00 USD
+                                    </p>
+                                    <img class="star" src="imgs/Star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_One">
+                        <div class="block">
+                            <div class="img_block">
+                                <h2 class="Product_title">
+                                    Vegetable
+                                </h2>
+                                <img src="imgs/Photo catearies 1.png" alt="">
+                            </div>
+                            <div class="text_box_One">
+                                <h2>
+                                    <a href="">
+                                        Calabrese Broccoli
+                                    </a>
+                                </h2>
+                                <hr>
+                                <div class="rating_and_price">
+                                    <p>
+                                        <span> $ 9.37 USD</span>
+                                        $ 14.00 USD
+                                    </p>
+                                    <img class="star" src="imgs/Star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_One">
+                        <div class="block">
+                            <div class="img_block">
+                                <h2 class="Product_title">
+                                    Vegetable
+                                </h2>
+                                <img src="imgs/Photo catearies 1.png" alt="">
+                            </div>
+                            <div class="text_box_One">
+                                <h2>
+                                    <a href="">
+                                        Calabrese Broccoli
+                                    </a>
+                                </h2>
+                                <hr>
+                                <div class="rating_and_price">
+                                    <p>
+                                        <span> $ 9.37 USD</span>
+                                        $ 14.00 USD
+                                    </p>
+                                    <img class="star" src="imgs/Star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_One">
+                        <div class="block">
+                            <div class="img_block">
+                                <h2 class="Product_title">
+                                    Vegetable
+                                </h2>
+                                <img src="imgs/Photo catearies 1.png" alt="">
+                            </div>
+                            <div class="text_box_One">
+                                <h2>
+                                    <a href="">
+                                        Calabrese Broccoli
+                                    </a>
+                                </h2>
+                                <hr>
+                                <div class="rating_and_price">
+                                    <p>
+                                        <span> $ 9.37 USD</span>
+                                        $ 14.00 USD
+                                    </p>
+                                    <img class="star" src="imgs/Star.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Eco Friendly -->
+    <div class="Eco_Friendly">
+        <img src="imgs/Photo_Eco Friendly .jpg" alt="">
+        <div class="Text_Eco_Friendly">
+            <div class="Title_Eco_Friendly">
+                <p>
+                    Eco Friendly
+                </p>
+                <h2>
+                    Econis is a Friendly
+                    Organic Store
+                </h2>
+            </div>
+            <div class="Text">
+                <h2>
+                    Start with Our Company First
+                </h2>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed
+                    ut perspiciatis.
+
+                </p>
+            </div>
+            <div class="Text">
+                <h2>
+                    Learn How to Grow Yourself
+                </h2>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed
+                    ut perspiciatis.
+
+                </p>
+            </div>
+            <div class="Text">
+                <h2>
+                    Farming Strategies of Today
+                </h2>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed
+                    ut perspiciatis.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Distinctive ingredients -->
+    <div class="Distinctive_ingredients">
+        <div class="box_Featured">
+            <img src="imgs/Imagefood.png" alt="">
+            <div class="textBox">
+                <h2>
+                    <a href="">
+                        Organic Food
+                    </a>
+                </h2>
+            </div>
+        </div>
+        <div class="box_Featured">
+            <img src="imgs/Imagefood.png" alt="">
+            <div class="textBox">
+                <h2>
+                    <a href="">
+                        Organic Food
+                    </a>
+                </h2>
+            </div>
+        </div>
+        <div class="box_Featured">
+            <img src="imgs/Imagefood.png" alt="">
+            <div class="textBox">
+                <h2>
+                    <a href="">
+                        Organic Food
+                    </a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- News -->
+    <div class="News">
+        <div class="container">
+            <div class="textNews">
+                <div class="TitleNews">
+                    <p>
+                        News
+                    </p>
+                    <h2>
+                        Discover weekly content about organic food, & more
+                    </h2>
+                </div>
+                <div class="button">
+                    <h2>
+                        <a href="">
+                            More News <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                        </a>
+                    </h2>
+                </div>
+            </div>
+            <div class="BlockNews">
+                <div class="boxNews">
+                    <div class="number">
+                        <p>
+                            25
+                            Nov
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/Photo News.png" alt="">
+                    </div>
+                    <div class="Card">
+                        <div class="person">
+                            <h2>
+                                <a href="">
+                                    <i class="fa-solid fa-user"></i>
+                                    By Rachi Card
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="TextCard">
+                            <h2>
+                                <a href="">
+                                    The Benefits of Vitamin D & How to Get It
+                                </a>
+                            </h2>
+                            <p>
+                                Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            </p>
+                        </div>
+                        <div class="button">
+                            <h2>
+                                <a href="">
+                                    Read More <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxNews">
+                    <div class="number">
+                        <p>
+                            25
+                            Nov
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="imgs/Photo News.png" alt="">
+                    </div>
+                    <div class="Card">
+                        <div class="person">
+                            <h2>
+                                <a href="">
+                                    <i class="fa-solid fa-user"></i>
+                                    By Rachi Card
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="TextCard">
+                            <h2>
+                                <a href="">
+                                    The Benefits of Vitamin D & How to Get It
+                                </a>
+                            </h2>
+                            <p>
+                                Simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            </p>
+                        </div>
+                        <div class="button">
+                            <h2>
+                                <a href="">
+                                    Read More <i class="fa-regular fa-circle-down fa-rotate-270"></i>
+                                </a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe -->
+    <div class="Subscribe">
+        <div class="container">
+            <div class="block_Sub">
+                <div class="Text">
+                    <h2>
+                        Subscribe to
+                        our Newsletter
+                    </h2>
+                </div>
+                <div class="input-group">
+                    <input type="email" class="input" id="Email" name="Email" placeholder="uiverse@verse.io"
+                        autocomplete="off">
+                    <input type="submit" class="button--submit" value="Subscribe" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="column_One">
+                <div class="Title">
+                    <h2>
+                        Contact Us
+                    </h2>
+                </div>
+                <div class="Email">
+                    <p>
+                        Email
+                    </p>
+                    <h2>
+                        <a href="">
+                            needhelp@Organia.com
+                        </a>
+                    </h2>
+                </div>
+                <div class="Phone">
+                    <p>
+                        Phone
+                    </p>
+                    <h2>
+                        <a href="">
+                            666 888 888
+                        </a>
+                    </h2>
+                </div>
+                <div class="Address">
+                    <p>
+                        Address
+                    </p>
+                    <h2>
+                        <a href="">
+                            88 road, borklyn street, USA
+                        </a>
+                    </h2>
+                </div>
+            </div>
+            <div class="column_Two">
+                <div class="logo">
+                    <img src="imgs/Logo.png" alt="">
+                    <h2>
+                        Organick
+                    </h2>
+                </div>
+                <div class="Text">
+                    <p>
+                        Simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum simply dummy text of the printing
+                    </p>
+                </div>
+                <div class="social_media">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="column_Three">
+                <div class="Text_Utility_Pages">
+                    <h2>
+                        Utility Pages
+                    </h2>
+                </div>
+                <h2>
+                    <a href="">
+                        Style Guide
+
+                    </a>
+                </h2>
+                <h2>
+                    <a href="">
+                        404 Not Found
+
+                    </a>
+                </h2>
+                <h2>
+                    <a href="">
+                        Password Protected
+
+                    </a>
+                </h2>
+                <h2>
+                    <a href="">
+                        Licences
+
+                    </a>
+                </h2>
+                <h2>
+                    <a href="">
+                        Changelog
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+    <script src="indix.js"></script>
+</body>
+
+</html>
